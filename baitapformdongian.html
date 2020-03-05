@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập form đơn giản</title>
+    <style>
+        body{
+            font-size:20px;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+        table#bang1 th {
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+<FORM action="/action_page.php">
+    <table width="50%" id="bang1" >
+       <tr>
+     <th colspan="4" bgcolor="#ff8c00">SỞ THÍCH CỦA BẠN</th>
+       </tr>
+        <tr>
+            <td align="right" style="color:blue"> <label for="hoten">Họ và tên</label></td>
+            <td colspan="3">
+                <input id="hoten" type="text" name="hoten" size="50"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" style="color: blue">
+                <label for="email">Email</label> </td>
+            <td colspan="3"><input id="email" type="email" name="email" size="35"></td>
+
+        </tr>
+        <tr>
+            <td align="right" style="color: blue">Sở thích</td>
+
+            <td>
+                <input type="checkbox" name="sothich" value="Thể Thao"/><span style="color:red">Thể Thao</span>
+            </td>
+            <td>
+                <input type="checkbox" name="sothich" value="Âm nhạc"/><span style="color:red">Âm nhạc</span>
+            </td>
+            <td>
+                <input type="checkbox" name="sothich" value="Đọc sách"/><span style="color:red">Đọc Sách</span>
+            </td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td>  <input type="checkbox" name="sothich" value="Lướt web"/><span style="color:red">Lướt web</span>
+            </td>
+            <td>
+                <input type="checkbox" name="sothich" value="Chơi game"/><span style="color:red">Chơi game</span>
+            </td>
+            <td>
+                <input type="checkbox" name="sothich" value="Điện ảnh"/><span style="color:red">Diện ảnh</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>  <input type="checkbox" name="sothich" value="Du lịch"/><span style="color:red">Du lịch</span></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Gửi thông tin đăng ký</button>       <input type="reset" value="Nhập lại" size="50"/>
+            </td>
+
+        </tr>
+
+
+    </table>
+</FORM>
+</body>
+</html>
