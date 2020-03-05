@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formdongian2</title>
+    <style>
+        body{
+            font-size: 20px;
+            color: brown;
+        }
+        table {
+            background-color: #fcffa1;
+            height: inherit;
+        }
+        table#bang2 th, td{
+            height: 50px;
+
+        }
+    </style>
+</head>
+<body>
+<form>
+    <table id="bang2" >
+        <tr>
+            <th colspan="2" align="left" STYLE="color: blue ; background-color: #a8fff5">ĐĂNG KÝ HỌC VIÊN</th>
+        </tr>
+        <tr >
+            <td>Họ và tên</td>
+            <td width="400">
+                <input type="text" name="hoten" size="35"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td>
+                <input type="text" name="ngaythangnam" size="20"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <input type="radio" name="gioitinh" value="Nam"/><span style="color: black">Nam</span>
+                 <input type="radio" name="gioitinh" value="Nữ"/><span style="color: black">Nữ</span>
+            </td>
+        </tr>
+        <tr>
+        <td >Địa chỉ</td>
+        <td>
+            <textarea cols="35" rows="4">
+
+            </textarea>
+        </td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <select name="lop">
+                    <option value="Chonlop" >--Chọn lớp--</option>
+                    <option value="lopa1" >--Lớp 12A1--</option>
+                    <option value="lopa2" >--Lớp 12A2--</option>
+                    <option value="lopa3">--Lớp 12A3--</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name="email"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Số điện thoại</td>
+            <td>
+                <input type="text" name="sdt"/>
+
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+               <button type="submit">Đăng ký</button>
+                <input type="reset" value="Nhập lại"/>
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+</body>
+</html>
